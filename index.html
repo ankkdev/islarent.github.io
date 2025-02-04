@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Islarent - Casas y pisos en Islas Canarias</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+
+<body class="flex flex-col min-h-screen font-sans m-0">
+  <header class="bg-yellow-400 p-4">
+    <nav class="flex justify-between items-center">
+      <img src="assets/images/brands/isotipo_png.png" alt="Logo" class="w-12 h-12">
+      <button id="menu-btn" class="md:hidden text-3xl">
+        ☰
+      </button>
+    </nav>
+    <ul id="menu"
+      class="hidden md:flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-4 mt-2 md:mt-0">
+      <li><a href="#home" class="block text-black p-3 rounded-md hover:bg-blue-700 hover:text-white">Inicio</a></li>
+      <li><a href="#services" class="block text-black p-3 rounded-md hover:bg-blue-700 hover:text-white">Mejores
+          viviendas</a></li>
+      <li><a href="#about" class="block text-black p-3 rounded-md hover:bg-blue-700 hover:text-white">Nosotros</a></li>
+      <li><a href="#contact" class="block text-black p-3 rounded-md hover:bg-blue-700 hover:text-white">Contacta con
+          nosotros</a></li>
+      <li><a href="#contact"><img src="assets/images/user.svg" class="w-8 h-8"></a></li>
+    </ul>
+  </header>
+
+  <main class="flex-1 p-4 py-8 bg-[url('assets/images/las_palmas_banner.png')] bg-cover bg-center bg-no-repeat h-screen flex items-center justify-center">
+    <div class="bg-amber-400 p-8 rounded-lg shadow-md text-center">
+      <h1 class="text-3xl font-bold mb-4">Busca tu propiedad</h1>
+      <div class="flex flex-col md:flex-row gap-4">
+        <button class="px-6 py-3 bg-black hover:bg-blue-700 text-white font-bold rounded-lg">Alquiler</button>
+        <button class="px-6 py-3 bg-gray-500 text-white hover:bg-blue-700 text-gray-800 font-bold rounded-lg">Compra</button>
+        <select class="border border-gray-300 rounded px-4 py-3" id="">
+          <option value="">Tipo de propiedad</option>
+          <option value="casa">Casa</option>
+          <option value="apartamento">Apartamento</option>
+          <option value="local">Local</option>
+        </select>
+        <select class="border border-gray-300 rounded px-4 py-3" id="">
+          <option value="">Isla</option>
+          <option value="gran-canaria">Gran Canaria</option>
+          <option value="tenerife">Tenerife</option>
+          <option value="fuerteventura">Fuerteventura</option>
+          <option value="lanzarote">Lanzarote</option>
+          <option value="gomera">Gomera</option>
+          <option value="hierro">Hierro</option>
+          <option value="la-palma">La Palma</option>
+        </select>
+        <button class="flex items-center px-6 py-3 bg-green-500 hover:bg-green-700 text-white font-bold rounded-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+            <path d="M21 21l-6 -6" />
+          </svg>
+          Search
+        </button>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-yellow-400 w-full p-4">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+      <div class="text-center md:text-left">
+        <h2 class="text-2xl font-bold">Islarent</h2>
+        <p class="mt-2">Casas y pisos en Islas Canarias</p>
+      </div>
+      <div class="flex flex-col md:flex-row items-center mt-4 md:mt-0">
+        <a href="#home" class="text-black p-2 hover:underline">Inicio</a>
+        <a href="#services" class="text-black p-2 hover:underline">Mejores viviendas</a>
+        <a href="#about" class="text-black p-2 hover:underline">Nosotros</a>
+        <a href="#contact" class="text-black p-2 hover:underline">Contacta con nosotros</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script/main.js"></script>
+</body>
+
+</html>
