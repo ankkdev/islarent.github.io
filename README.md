@@ -14,6 +14,10 @@ This project is a web application currently under development, aimed at providin
   - Phone number
 - **Generate PDF Report**: Users can generate a PDF report of their reservation history for reference.
 
+## Screenshots
+
+Here are some screenshots of the platform:
+
 ### For Administrators:
 - **Manage Users**: Administrators can modify or delete user information.
 - **Cancel Reservations**: Administrators have the authority to cancel any reservations made by users.
