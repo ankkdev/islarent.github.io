@@ -19,8 +19,6 @@ This project is a web application currently under development, aimed at providin
 Here are some screenshots of the platform:
 ![imagotipo_fondo](https://github.com/user-attachments/assets/8bb46f1a-9e3e-4741-bba9-de8dc54dda54)
 ![Proyecto nuevo(2)](https://github.com/user-attachments/assets/bfe4d502-de0e-4e28-9111-1364b93687b6)
-![Proyecto nuevo(3)](https://github.com/user-attachments/assets/295f6cb6-8110-4f77-8355-5b5123bd43ea)
-
 
 ### For Administrators:
 - **Manage Users**: Administrators can modify or delete user information.
