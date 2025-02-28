@@ -39,7 +39,7 @@ This platform is still under development, and several features are being worked 
 
 ## Live Demo
 
-You can view the live demo of the platform here:  
+You can view the live demo of the platform here (JUST INDEX):  
 [Canary Islands Housing Rental Platform](https://ankkdev.github.io/islarent.github.io/)
 
 ## Installation
